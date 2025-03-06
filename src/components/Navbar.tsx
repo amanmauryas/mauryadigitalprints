@@ -31,7 +31,7 @@ export default function Navbar() {
 <div className="container mx-auto px-4">
   <div className="flex justify-between items-center py-4">
     <Link to="/" className="flex items-center">
-      <img src="./assets/mdp" className="h-10 mr-4" alt="Logo" />
+      <img src="./assets/mdp.png" className="h-10 mr-4" alt="Logo" />
       <span className="text-3xl font-bold font-black">
         Maurya Digital Print
       </span>
