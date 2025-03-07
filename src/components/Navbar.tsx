@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import logo from "./mdp.png";  // ✅ Correct
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
@@ -31,7 +31,7 @@ export default function Navbar() {
 <div className="container mx-auto px-4">
   <div className="flex justify-between items-center py-4">
     <Link to="/" className="flex items-center">
-      <img src="./assets/mdp.png" className="h-10 mr-4" alt="Logo" />
+    <img src={logo} alt="Logo" className='h-10 mr-4'/>
       <span className="text-3xl font-bold font-black">
         Maurya Digital Print
       </span>

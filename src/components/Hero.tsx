@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import logo from "./mdp.png";  // ✅ Correct
 
 export default function Hero() {
   return (
@@ -53,11 +54,7 @@ export default function Hero() {
         <div className="relative hidden md:block">
           {/* Black Glow Effect */}
           <div className="absolute -inset-10 w-[28rem] h-[28rem] bg-black rounded-full blur-3xl opacity-50 animate-pulse"></div>
-          <img
-            src="./assets/mdp.png" // Replace with your logo path
-            alt="Company Logo"
-            className="w-96 h-auto object-contain relative"
-          />
+          <img src={logo} alt="Logo"className="w-96 h-auto ml- object-contain relative"/>
         </div>
       </div>
 
