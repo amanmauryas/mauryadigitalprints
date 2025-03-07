@@ -49,12 +49,14 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right Side Logo */}
-        <div className="hidden md:block">
+        {/* Right Side Logo with Glowing Effect */}
+        <div className="relative hidden md:block">
+          {/* Black Glow Effect */}
+          <div className="absolute -inset-10 w-[28rem] h-[28rem] bg-black rounded-full blur-3xl opacity-50 animate-pulse"></div>
           <img
             src="./assets/mdp.png" // Replace with your logo path
             alt="Company Logo"
-            className="w-96 h-auto object-contain"
+            className="w-96 h-auto object-contain relative"
           />
         </div>
       </div>

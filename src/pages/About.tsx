@@ -7,14 +7,6 @@ export default function AboutUs() {
     <div className={darkMode ? "bg-gray-900 text-white min-h-screen py-12" : "bg-gray-100 text-gray-900 min-h-screen py-12"}>
       <div className="container mx-auto px-6 lg:px-20">
         {/* Theme Toggle Button */}
-        <div className="flex justify-end mb-4">
-          <button 
-            className="px-4 py-2 rounded bg-primary-purple text-white hover:bg-opacity-90"
-            onClick={() => setDarkMode(!darkMode)}
-          >
-            {darkMode ? "Light Mode" : "Dark Mode"}
-          </button>
-        </div>
 
         <h1 className="text-4xl font-bold text-center text-primary-purple mb-6">
           About Us
