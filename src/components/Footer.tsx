@@ -71,22 +71,22 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/services/digital-printing" className="text-gray-400 hover:text-white">
+                <Link to="/services" className="text-gray-400 hover:text-white">
                   Digital Printing
                 </Link>
               </li>
               <li>
-                <Link to="/services/business-cards" className="text-gray-400 hover:text-white">
+                <Link to="/services" className="text-gray-400 hover:text-white">
                   Business Cards
                 </Link>
               </li>
               <li>
-                <Link to="/services/banners" className="text-gray-400 hover:text-white">
+                <Link to="/services" className="text-gray-400 hover:text-white">
                   Banners & Signs
                 </Link>
               </li>
               <li>
-                <Link to="/services/custom-apparel" className="text-gray-400 hover:text-white">
+                <Link to="/services" className="text-gray-400 hover:text-white">
                   Custom Apparel
                 </Link>
               </li>
@@ -98,15 +98,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-2 text-primary-orange" />
-                <span className="text-gray-400">+1234567890</span>
+                <span className="text-gray-400">+91 9999461226, <br /> +91 9999464226</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-2 text-primary-orange" />
-                <span className="text-gray-400">info@mauryaprint.com</span>
+                <span className="text-gray-400">mauryadigitalprint@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2 text-primary-orange" />
-                <span className="text-gray-400">123 Print Street, Design City, 12345</span>
+                <span className="text-gray-400">499/6 2nd Floor, Govindpuri Kalkaji, New Delhi - 110019</span>
               </li>
             </ul>
           </div>
@@ -118,9 +118,12 @@ export default function Footer() {
           <span>Visitors: {visitorCount}</span>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-4 text-center text-gray-400">
+        <div className="border-t border-gray-800 mt-8 pt-4 flex justify-between text-gray-400">
           <p>&copy; {new Date().getFullYear()} Maurya Digital Print. All rights reserved.</p>
+          <p>Designed & Developed by <a href="https://www.amanmauryas.live" className="hover:text-primary-orange">Aman Maurya</a></p>
         </div>
+
+
       </div>
     </footer>
   );

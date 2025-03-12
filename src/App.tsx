@@ -10,7 +10,6 @@ import Contact from './pages/Contact';
 import AboutUs from './pages/About';
 import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
-
 function App() {
   return (
     <Router>

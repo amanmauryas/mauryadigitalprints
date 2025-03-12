@@ -56,7 +56,7 @@ export default function AboutUs() {
           <h2 className="text-3xl font-bold text-primary-purple mb-6">Meet Our Founder</h2>
           <div className="flex flex-col items-center">
             <img 
-              src="./assets/founder.jpg" 
+              src="./assets/founder.jpeg" 
               alt="Founder" 
               className="w-40 h-40 rounded-full shadow-lg mb-4" 
             />

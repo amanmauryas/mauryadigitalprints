@@ -2,6 +2,8 @@ import React from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import logo from "./mdp.png";  // ✅ Correct
+
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 

@@ -1,10 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import path from 'path'; // Missing import
+import tailwindcss from 'tailwindcss'; // Missing import
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"), // Fixed path syntax
+    },
   },
 });

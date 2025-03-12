@@ -39,8 +39,8 @@ export default function Contact() {
     }
 
     // WhatsApp Integration
-    const phoneNumber = '9999461226'; // Replace with your WhatsApp number
-    const message = `Hello, my name is ${formData.name}.\nSubject: ${formData.subject}\nMessage: ${formData.message}\nEmail: ${formData.email}\nPhone: ${formData.phone}`;
+    const phoneNumber = '9935037434'; // Replace with your WhatsApp number
+    const message = `Hello, my name is ${formData.name}.\nMessage: ${formData.message}\nEmail: ${formData.email}\nPhone: ${formData.phone}`;
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappURL, '_blank');
@@ -67,7 +67,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-6 h-6 mr-4" />
-                  <p>Gali no.6 2and floor Govindpuri Kalkaji New Delhi, 110016</p>
+                  <p>499/6 2nd Floor, Govindpuri Kalkaji, New Delhi - 110019</p>
                 </div>
               </div>
             </div>
